@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zoška Filmy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+  <body>
+    <div class="side-bar left-bar"></div>
+    <div class="side-bar right-bar"></div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navba">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Zoška Filmy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="d-flex flex-row-reverse collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Filmy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Seriály</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Premium</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <div class="input-group rounded">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span class="input-group-text border-0" id="search-addon">
+                          <i class="fas fa-search"></i>
+                        </span>
+                      </div>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!--------Filmy box--------->
+        <div class="container-fluid">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>                
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <video class="img-fluid object-fit-fill w-100" autoplay loop muted>
+                            <source src="Filmy/John Wick - Trim.mov" type="video/mp4" class="object-fit-contain trailers" />
+                        </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>JOHN WICK 4</h5>
+                        <p></p>
+                    </div>
+                
+                </div>
+                <div class="carousel-item w-100">
+                    <video class="img-fluid object-fit-fill w-100" autoplay loop muted>
+                        <source src="Filmy/Scream 6 - Trim.mov" type="video/mp4" class="object-fit-contain trailers"/>
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>SCREAM 6</h5>
+                        <p></p>
+                    </div>
+                
+                </div>
+                <div class="carousel-item">
+                    <video class="img-fluid w-100" autoplay loop muted>
+                        <source src="Filmy/Dungeons and dragons - Trim.mov" type="video/mp4" class="object-fit-contain trailers"/>
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>DUNGEONS AND DRAGONS</h5>
+                        <p></p>
+                    </div>
+                
+                </div>
+                </div>
+                <button class="carousel-control-prev tlacidlo" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
+        <!--------ACTION--------->
+        <div>
+            <h1 class="Category">ACTION</h1>
+            <div class="wrapper">
+                <section id="section1">
+                    <a href="#section3" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/Top gun.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/tenet.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/mission.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Avatar 2.jpg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/Avatar 2.jpg" alt="Describe Image">
+                </div>
+                    <a href="#section2" class="arrow__btn">›</a>
+                </section>
+                <section id="section2">
+                    <a href="#section1" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/Bullet Train.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Batman2022.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Nobody.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/All quiet.jpg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/All quiet.jpg" alt="Describe Image">
+                </div>
+                    <a href="#section3" class="arrow__btn">›</a>
+                </section>
+                <section id="section3">
+                    <a href="#section2" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/Creed3.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Uncharted.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/JamesBond.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Alien.jpg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/Alien.jpg" alt="Describe Image">
+                </div>
+                    <a href="#section1" class="arrow__btn">›</a>
+                </section>
+            </div>
+        </div>
+
+        <!--------FANTASY--------->
+        <div>
+            <h1 class="Category">FANTASY</h1>
+            <div class="wrapper">
+                <section id="section4">
+                    <a href="#section6" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/LOR.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Hobbit.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/EEAO.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Shang chi.jpg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/Shang chi.jpg" alt="Describe Image">
+                </div>
+                    <a href="#section5" class="arrow__btn">›</a>
+                </section>
+                <section id="section5">
+                    <a href="#section4" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/Harrypotter.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/FB.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Starwars.webp" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/PIB.jpeg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/PIB.jpeg" alt="Describe Image">
+                </div>
+                    <a href="#section6" class="arrow__btn">›</a>
+                </section>
+                <section id="section6">
+                    <a href="#section5" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/justice.png" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Jumanji.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Ghost.webp" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Pirate.webp" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/Pirate.webp" alt="Describe Image">
+                </div>
+                    <a href="#section4" class="arrow__btn">›</a>
+                </section>
+            </div>
+        </div>
+
+        <!--------ANIME--------->
+        <div>
+            <h1 class="Category">ANIME</h1>
+            <div class="wrapper">
+                <section id="section7">
+                    <a href="#section9" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/Jujutsu.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Titan.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Naruto.webp" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Bleach.avif" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/Bleach.avif" alt="Describe Image">
+                </div>
+                    <a href="#section8" class="arrow__btn">›</a>
+                </section>
+                <section id="section8">
+                    <a href="#section7" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/Demon.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Chainsaw.webp" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Eighty.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/DXD.jpg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/DXD.jpg" alt="Describe Image">
+                </div>
+                    <a href="#section9" class="arrow__btn">›</a>
+                </section>
+                <section id="section9">
+                    <a href="#section8" class="arrow__btn">‹</a>
+                    <div class="item">
+                    <img src="Bannery/vivy.png" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/violetevergarden.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Yourname.jpg" alt="Describe Image">
+                </div>
+                    <div class="item">
+                    <img src="Bannery/Dragon.jpg" alt="Describe Image">
+                </div>
+                <div class="item">
+                    <img src="Bannery/Dragon.jpg" alt="Describe Image">
+                </div>
+                    <a href="#section7" class="arrow__btn">›</a>
+                </section>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
