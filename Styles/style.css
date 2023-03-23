@@ -5,42 +5,11 @@ body {
   margin: 0;
   background-color: #111;
 }
-.navba{
-  position: relative;
-  z-index: 3;
-}
-
-.trailers{
-  position: relative;
-  z-index: 1;
-}
-
-.side-bar {
-  z-index: 2;
-  pointer-events: none;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 10em; /* adjust the width as needed */
-  background-image: linear-gradient(-90deg, rgba(0,0,0,0), rgba(0,0,0,1) 97%); /* create a linear gradient that fades from transparent to black */
-}
-
-.left-bar {
-  left: 0;
-}
-
-.right-bar {
-  right: 0;
-  transform: scaleX(-1); /* flip the gradient horizontally */
-}
-
 .Category {
-  position: relative;
   font-family: Arial;
   color: #00C4D4;
   text-align: left;
   margin-left: 0.7em;
-  z-index: 3;
 }
 .wrapper {
   display: grid;
@@ -66,7 +35,7 @@ body {
   position: relative;
   display: grid;
   grid-template-columns: repeat(5, auto);
-  margin: 1em 0 2em 0;
+  margin: 20px 0;
 }
 .wrapper section .item {
   padding: 0 2px;
@@ -82,7 +51,7 @@ body {
   text-decoration: none;
   font-size: 6em;
   background: #000;
-  width: px;
+  width: 80px;
   padding: 20px;
   text-align: center;
   z-index: 1;
@@ -99,16 +68,8 @@ body {
   right: 0;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
 }
-
-.arrow__btn{
-  position: relative;
-  z-index: 3;
-}
-
 @media only screen and (max-width: 600px) {
   a.arrow__btn {
     display: none;
-    position: relative;
-    z-index: 3;
  }
 }
