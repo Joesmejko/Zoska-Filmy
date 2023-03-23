@@ -1,13 +1,18 @@
+:root{
+  --pozadie: #111;
+  --blue: #00C4D4;
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  background-color: #111;
+  background-color: var(--pozadie);
 }
 .Category {
   font-family: Arial;
-  color: #00C4D4;
+  color: var(--blue);
   text-align: left;
   margin-left: 0.7em;
 }
