@@ -3,12 +3,6 @@
   --blue: #00C4D4;
 }
 
-
-.serbar::placeholder{
-  color: var(--blue);
-  opacity: 1;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -23,12 +17,32 @@ body {
   font-size: 1em;
 }
 
+.serbar::placeholder{
+  color: var(--blue);
+  opacity: 1;
+}
+
 .nav-center{
 align-items: center;
 }
 
 .pozadie a{
   color: var(--blue);
+}
+
+.serbar{
+  background-color: var(--pozadie);
+  color: var(--blue);
+}
+
+.ser{
+  color: var(--blue);
+  border: solid 0.1em var(--blue);
+}
+
+.ser:hover{
+  background-color: var(--blue);
+  color: var(--pozadie);
 }
 
 .Category {
@@ -58,20 +72,6 @@ align-items: center;
   height: 12em;
 }
 
-.serbar{
-  background-color: var(--pozadie);
-  color: var(--blue);
-}
-
-.ser{
-  color: var(--blue);
-  border: solid 0.1em var(--blue);
-}
-
-.ser:hover{
-  background-color: var(--blue);
-  color: var(--pozadie);
-}
 
 .wrapper section {
   width: 100%;
