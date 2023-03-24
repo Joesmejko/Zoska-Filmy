@@ -13,10 +13,6 @@ body {
   padding-top: 10%;
 }
 
-.place {
-  height: 1em;
-}
-
 .pozadie {
   height: 50em;
   overflow: hidden;
@@ -27,7 +23,7 @@ body {
   width: 220px;
   top: -60px;
   left: -130px;
-  background: radial-gradient(#007bff, hsl(222, 53%, 30%) 75%);
+  background: radial-gradient(var(--blue), #15cbdb70 98%);
   overflow: hidden;
 }
 
@@ -37,7 +33,7 @@ body {
   right: -110px;
   width: 300px;
   height: 300px;
-  background: radial-gradient(#007bff, hsl(222, 53%, 30%) 75%);
+  background: radial-gradient(var(--blue), #15cbdb70 98%);
   overflow: hidden;
 }
 
@@ -98,7 +94,7 @@ body {
 .box .inputBox input:not([value=""])~label {
   top: -1.125rem;
   left: 0;
-  color: #03a9f4;
+  color: var(--blue);
   font-size: 0.75rem;
 }
 
@@ -106,7 +102,7 @@ body {
   border: none;
   outline: none;
   color: #fff;
-  background-color: #03a9f4;
+  background-color: var(--blue);
   padding: 0.625rem 1.25rem;
   cursor: pointer;
   border-radius: 0.312rem;
@@ -114,5 +110,5 @@ body {
 }
 
 .box input[type="submit"]:hover {
-  background-color: #1cb1f5;
+  background-color: var(--blue);
 }
