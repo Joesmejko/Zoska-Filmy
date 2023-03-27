@@ -1,0 +1,46 @@
+:root{
+    --pozadie: #111;
+    --blue: #00C4D4;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    background-color: var(--pozadie);
+  }
+  
+  .pozadie{
+    background-color: var(--pozadie);
+    font-size: 1em;
+  }
+  
+  .serbar::placeholder{
+    color: var(--blue);
+    opacity: 1;
+  }
+  
+  .nav-center{
+  align-items: center;
+  }
+  
+  .pozadie a{
+    color: var(--blue);
+  }
+  
+  .serbar{
+    background-color: var(--pozadie);
+    color: var(--blue);
+  }
+  
+  .ser{
+    color: var(--blue);
+    border: solid 0.1em var(--blue);
+  }
+  
+  .ser:hover{
+    background-color: var(--blue);
+    color: var(--pozadie);
+  }

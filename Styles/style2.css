@@ -13,9 +13,9 @@ body {
   padding-top: 10%;
 }
 
-.pozadie {
-  height: 50em;
-  overflow: hidden;
+
+.background{
+  background-color: var(--pozadie);
 }
 
 #radius-shape-1 {
@@ -113,7 +113,7 @@ body {
   background-color: var(--blue);
 }
 
-.pozadie{
+.pozadie-nav{
   background-color: var(--pozadie);
   font-size: 1em;
 }
@@ -127,7 +127,7 @@ body {
 align-items: center;
 }
 
-.pozadie a{
+.pozadie-nav a{
   color: var(--blue);
 }
 
