@@ -1,14 +1,21 @@
 function changeColor(color) {
-  // Set the CSS variable in the root element to the color input
   document.documentElement.style.setProperty('--blue', color);
-
-  // Store the color value in local storage to persist after refresh
-  window.localStorage.setItem('blueColor', color);
-  const storedColor = window.localStorage.getItem('blueColor');
+  window.sessionStorage.setItem('blueColor', color);
+  const storedColor = window.sessionStorage.getItem('blueColor');
 }
 
-// Check if a color is stored in local storage and set it as the CSS variable
-const storedColor = window.localStorage.getItem('blueColor');
+function changeBackground(color) {
+  document.documentElement.style.setProperty('--pozadie', color);
+  window.sessionStorage.setItem('PozadieColor', color);
+  const storedBackground = window.sessionStorage.getItem('PozadieColor');
+}
+
+const storedColor = window.sessionStorage.getItem('blueColor');
 if (storedColor) {
   document.documentElement.style.setProperty('--blue', storedColor);
+}
+
+const storedBackground = window.sessionStorage.getItem('PozadieColor');
+if (storedBackground) {
+  document.documentElement.style.setProperty('--pozadie', storedBackground);
 }

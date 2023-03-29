@@ -2,3 +2,7 @@
     --pozadie: #111;
     --blue: #00C4D4;
 }
+
+.Theme{
+    color: var(--blue);
+}
