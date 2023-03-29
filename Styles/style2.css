@@ -1,7 +1,4 @@
-:root{
-  --pozadie: #111;
-  --blue: #15cadb;
-}
+
 
 body {
   background-color: var(--pozadie);
@@ -13,9 +10,9 @@ body {
   padding-top: 10%;
 }
 
-.pozadie {
-  height: 50em;
-  overflow: hidden;
+
+.background{
+  background-color: var(--pozadie);
 }
 
 #radius-shape-1 {

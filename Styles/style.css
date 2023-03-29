@@ -1,9 +1,4 @@
-:root{
-  --pozadie: #111;
-  --blue: #00C4D4;
-}
-
-html {
+html{
   scroll-behavior: smooth;
 }
 
