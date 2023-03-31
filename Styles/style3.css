@@ -7,35 +7,67 @@ body {
   background-color: var(--pozadie);
 }
 
-.pozadie{
-  background-color: var(--pozadie);
-  font-size: 1em;
+.Theme{
+  margin-bottom: 1em;
+  font-size: 2.3em;
 }
 
-.serbar::placeholder{
-  color: var(--blue);
-  opacity: 1;
+.Color-changer{
+  width: 8em;
+  height: 8em;
+  margin-bottom: 5em;
 }
 
-.nav-center{
-align-items: center;
+.one{
+  background-color: #00C4D4;
+  border-radius: 1em;
+  border: 0;
 }
 
-.pozadie a{
-  color: var(--blue);
+.two{
+  background-color: #c0392b;
+  border-radius: 1em;
+  border: 0;
 }
 
-.serbar{
-  background-color: var(--pozadie);
-  color: var(--blue);
+.three{
+  background-color: #2ecc71;
+  border-radius: 1em;
+  border: 0;
 }
 
-.ser{
-  color: var(--blue);
-  border: solid 0.1em var(--blue);
+.four{
+  background-color: #FFBF00;
+  border-radius: 1em;
+  border: 0;
 }
 
-.ser:hover{
-  background-color: var(--blue);
-  color: var(--pozadie);
+.five{
+  background-color: #CCCCFF;
+  border-radius: 1em;
+  border: 0;
+}
+
+.six{
+  background-color: #9FE2BF;
+  border-radius: 1em;
+  border: 0;
+}
+
+.seven{
+  background-color: #8e44ad;
+  border-radius: 1em;
+  border: 0;
+}
+
+.eight{
+  background-color: #2874a6;
+  border-radius: 1em;
+  border: 0;
+}
+
+.nine{
+  background-color: #fff;
+  border-radius: 1em;
+  border: 0;
 }
