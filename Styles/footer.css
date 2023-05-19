@@ -1,0 +1,7 @@
+.footerfarba{
+    color: var(--blue) !important;
+}
+
+.footer{
+    margin-top: 15rem;
+}

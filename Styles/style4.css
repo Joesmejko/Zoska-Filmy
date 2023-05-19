@@ -3,7 +3,7 @@ html{
 }
 
 body {
-  background-color: var(--pozadie);
+  background-color: var(--pozadie) !important;
   min-height: 50em;
 }
 
@@ -130,7 +130,7 @@ body {
   
   .pricing-cards .card {
     width: 50em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(35, 34, 34, 0.5);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     margin-right: 1em;
     margin-bottom: 1em;
@@ -169,7 +169,7 @@ body {
 
   .pricing-cards .card {
     width: 40em;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(56, 55, 55, 0.5);
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
     margin-right: 1em;
     margin-bottom: 1em;
